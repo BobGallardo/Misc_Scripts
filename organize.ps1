@@ -12,8 +12,8 @@
     The path to the target directory where files will be organized into subdirectories.
 
 .EXAMPLE
-    .\Organize-Files.ps1 -SourceDirectory "C:\MyFiles" -TargetDirectory "C:\OrganizedFiles"
-    Organizes files from "C:\MyFiles" into subdirectories within "C:\OrganizedFiles" based on the first character of each file's name.
+    .\Organize-Files.ps1 -SourceDirectory "C:\path\to\source\directory" -TargetDirectory "C:\path\to\target\directory"
+    Organizes files from "C:\path\to\source\directory" into subdirectories within "C:\path\to\target\directory" based on the first character of each file's name.
 
 .NOTES
     Version:        1.0
