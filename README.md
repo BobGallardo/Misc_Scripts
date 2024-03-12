@@ -21,3 +21,27 @@ download `find_dolby_vision.sh` and make the script executable with
 Example usage:
 
     ./find_dolby_vision.sh -d /path/to/movies -l /path/to/logfile.log -p
+
+
+
+
+## organize.ps1
+
+This is a powershell script that will read files from a directory and will move them to folders based on the first letter of the filename..
+
+### required applications
+
+> PowerShell 7
+
+#### Installation
+download `organize.ps1`
+
+#### Run the script with required switches:
+```
+-sourceDirectory "C:\path\to\your\source\directory"
+-targetDirectory "C:\path\to\your\target\directory"
+```
+Example usage:
+
+    .\organize.ps1 -sourceDirectory "C:\path\to\your\source\directory" -targetDirectory "C:\path\to\your\target\directory"
+
