@@ -22,8 +22,9 @@ Download `find_dolby_vision.sh` and make the script executable with
 > -p to enable the progress bar.
 
 Example usage:
-    ./find_dolby_vision.sh -d /path/to/movies -l /path/to/logfile.log -p
-
+````
+./find_dolby_vision.sh -d /path/to/movies -l /path/to/logfile.log -p
+````
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
  
 # organize.ps1
@@ -44,5 +45,6 @@ Download `organize.ps1`
 > -targetDirectory "C:\path\to\your\target\directory"
 
 Example usage:
-    .\organize.ps1 -sourceDirectory "C:\path\to\your\source\directory" -targetDirectory "C:\path\to\your\target\directory"
-
+````
+.\organize.ps1 -sourceDirectory "C:\path\to\your\source\directory" -targetDirectory "C:\path\to\your\target\directory"
+````
