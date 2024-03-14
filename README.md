@@ -29,7 +29,7 @@ Example usage:
  
 # organize.ps1
 
-This is a powershell script that will read files from a directory and will move them to folders based on the first letter of the filename..
+This is a powershell script that will read files from a directory and will move them to folders based on the first letter of the filename.
 
 ### Required applications:
 
