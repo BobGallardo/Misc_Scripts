@@ -29,7 +29,7 @@ Example usage:
  
 # organize.ps1
 
-This is a Powershell script that will read files from a directory and will move them to folders based on the first letter of the filename.
+This is a PowerShell script that will read files from a directory and will move them to folders based on the first letter of the filename.
 
 ### Required applications:
 
@@ -52,7 +52,7 @@ Example usage:
  
 # archive-bins.ps1
 
-This is a Powershell script that looks in rar archives with 7zip that include .bin files. It can create a CSV file with details of the .bin files and/or extract rar archives based on the included .bin files. Designed for use on Windows, Linux, MacOS systems with Powershell isntalled.
+This is a script that will use 7zip to look in rar archives that include .bin files. It can create a CSV file with details of the .bin files and/or extract rar archives based on the included .bin files. Designed for use on Windows, Linux, MacOS systems with PowerShell installed.
 
 ### Required applications:
 
